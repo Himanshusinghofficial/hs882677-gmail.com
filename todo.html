@@ -1,4 +1,3 @@
-//made by himanshu singh
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +24,36 @@
                 <small id="inputTaskhelp" class="form-text text-muted">A short one line description for your Task</small>
             </div>
           </div>
-     
-        </div>
-         <div class="row">
+         <div class="col-md-5">
+          <div class="row">
+            <div class="col-6 col-sm-3 col-md-6  p-1">
+            <button class="btn btn-success col m-2 p-2" disabled id="addbtn">
+            <i class="fas fa-plus"></i>Add
+            </button>
+            </div>
+
+            <div class="col-6 col-sm-3 col-md-6  p-1">
+            <button class="btn btn-danger col m-2 p-2"  disabled id="delbtn">
+              <i class="fas fa-backspace"></i> Delete
+            </button>
+            </div>
+          
+            <div class="col-6 col-sm-3 col-md-6  p-1">
+          <button class="btn btn-info col m-2 p-2" disabled id="sortbtn">
+          <i class="fas fa-sort-amount-down"></i>sort
+          </button>
+            </div>
+
+          <div class="col-6 col-sm-3 col-md-6  p-1">
+          <button class="btn btn-warning col m-2 p-2" disabled id="clearbtn">
+            <i class="fas fa-trash-alt"></i>clear
+          </button>
+          </div>
+        
+      </div>
+         </div>
+     </div>
+      <!-- <div class="row">
           <div class="col">
             <button type="button" class="btn btn-success btn-lg btn-block" id="addbtn">Add</button>
           </div>
@@ -35,17 +61,24 @@
             <button type="button" class="btn btn-danger btn-lg btn-block"  id="delbtn">Delete</button>
           </div>
             
-      </div>
-
-       <div class="row">
+      </div> -->
+      
+      <!-- <div class="row">
           <div class="col">
             <ul class="list-group" id="listTask">
                 <li class="list-group-item">Cras justo odio</li>
                 <li class="list-group-item">Dapibus ac facilisis in</li>
             </ul>
           </div>
-      </div>
+      </div> -->
+
+      <ul class="row list-group" id="listTask"></ul>
+
       
-   </div>    
+
+
+    </div>
+
+    
 </body>
 </html>
